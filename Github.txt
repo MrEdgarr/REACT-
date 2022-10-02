@@ -1,0 +1,28 @@
+- git init: 
+	+ Lệnh này được sử dụng để tạo một kho lưu trữ cục bộ. local repository	
+- git remote add origin https://github.com/MrEdgarr/reactjs_1.git :
+	+ ket noi
+- git add *
+	+ để thêm một hoặc nhiều tệp vào vùng dàn (Chỉ mục).
+- git commit -m "comment"
+	+ ghi lại hoặc chụp nhanh mọi thay đổi của các file trong lịch sử thay đổi bằng một tin nhắn.
+- git push origin master
+	+ Lệnh này sẽ gửi các thay đổi được thực hiện trên nhánh chính tới kho lưu trữ từ xa của bạn.
+-Git clone ( git clone <:clone git url:> )
+	+ Copy 1 git repository từ remote source.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+-Upload len web
+b1: git init
+b2: git commit -m "comment"
+b3: git remote add origin https://github.com/MrEdgarr/Test.git
+b4: git push -u origin master
+
+-Upload code
+b1: git add *
+b2: git commit -m "comment"
+b3: gp (git push)
+
+-Dong co code tren web
+git pull

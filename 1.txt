@@ -1,0 +1,10 @@
+node -v : kiem tra phien ban node js
+
+
+npx create-react-app my-app : tao project
+cd my-app : 
+npm start : khoi chay project
+
+
+ERR
+- import React, { Component } from 'react': 'Component' is not defined  no-undef

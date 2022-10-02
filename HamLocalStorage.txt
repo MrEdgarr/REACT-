@@ -1,0 +1,11 @@
+-WHAT:
+	+local = máy của mình
+	+Storage = lưu trữ dữ liệu
+	+Lưu trư dữ liệu trên chrome trong máy của mình
+	+Lưu trữ này là tạm thời, nếu bạn chọn clear cookie hoặn bật f12 xóa storage bằng tay thì lưu trũ này sẽ biến mất
+	+Dùng localstorage này để lưu trũ dự liệu ứng dụng quản lý thành viên
+-HOW:
+	+Cấu trúc : key - value
+	+Hàm thao tác: 3 hàm :  + get  (localStorage.getItem('name');)
+				+ set (localStorage.setItem ('name', 'Bepatient'); ) 
+				+ remove ( localStorage.removeItem('name'); )

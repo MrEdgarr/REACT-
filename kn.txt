@@ -1,0 +1,55 @@
+1.Gioi thieu reactjs
+	-La famework
+	-thu vien javascript
+	-giao dien website
+	-load du lieu nhanh coi kieu SPA(single webpage application)
+	-Component-based -> dong goi va quan ly theo logic component
+	-Learn once write anywhere ( Hoc mot lan viet moi noi)
+
+2.Khai niem component
+	-Mot khoi dong goi ben trong gom cac the html, props, state, ...
+	-Su dung duoi dang JSX dc chuyen doi tu cac the html
+	-Dong goi cac khoi code thanh mot doi tuong doc lap
+	-Dinh nghia component   +Ham binh thuong   	: function One() {}
+				+anonymous function	: function () {}
+				+arrow function (es6)   : () =>{}
+				+class             	: (rcjs)
+
+3.Props(properties)
+	-La thuoc tinh cua component
+	-Truyen cac tham so tu ngoai vao trong component
+	-Giam thoi gian phat trien component
+	-Dc su dung bang + Function(props) -> props.vd
+			 + Class           -> this.props.vs
+
+4. JSX (javascript extension)
+
+5. Ham map
+	-Duyet tat ca cac phan tu trong mang (vong lap)
+	-vd.map((x) => x-2)
+
+6. %PUBLIC_URL% link dan den folder public
+
+7. onClick
+	- Ko co tham so : onClick = {this.ham}
+			  onClick = {() => this.ham }
+	- Co tham so : onClick = {() => this.ham(" tham so ")}
+		       this.ham.bind(this, "tham so")
+
+8. React Router
+	- Cho phep lam SPA - singler webpage application
+	- Thao tac chua nang tren mot trang
+	- load cac noi dung  thay tdoi khong can load lai ca trang
+	- Cai dat $npm install react-router-dom@6
+	- Mo src/index.js add thu vien import { BrowserRouter } from "react-router-dom";
+	- Sua <React.StrictMode> = <BrowserRouter> -> Co the su dung reactRouter o bat ky dau
+	- NavLink danh dau lua chon trang 	+ activeClassName ="vd" : thay doi thuoc tinh class mac dinh thanh "vd"
+	
+
+9. State
+	- La bien trung gian hoat dong trong suat qua trinh thai tac voi component
+	- Dong vai tro trung gian, giu cac bien, tham so can thtet trong luc lap trinh 
+	- Khong gioi han tham so, kieu object
+
+10. Json
+	- Tao CSDL cho font-end
